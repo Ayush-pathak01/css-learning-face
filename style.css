@@ -1,20 +1,48 @@
-h1{
-    text-transform: uppercase;
-    height:100%;
-    width:100%;
-    border:5px ;
-    border-style: double;
-    
-    border-color: rgb(73, 91, 91);
-    background-color: rgb(206, 184, 184);
+body{
+    background-color: antiquewhite;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+    margin: 0;
 }
 
-* {
-    font-family: "To Time New Romin";
+#four{
+    border-color: black;
+   
+    height: 250px;
+    width: 90px;
+
+
+    border-style: double;
+    border-width:5px;
+    background-color: beige;
+    border-radius: 5px;
 }
-#outer{
-    font-size:25px;
+
+#one{
+    border-style: solid;
+    height: 50px;
+    width:50px;
+    margin:20px 25px 20px 20px;
+    border-radius:50%;
+    background-color: rgb(233, 10, 10);
 }
-#inner{
-    font-size:10px;
-}
+ #two{
+    border-style: solid;
+    height: 50px;
+    width: 50px;
+    margin: 20px 25px 20px 20px ;
+    border-radius: 50%;
+    background-color: yellow;
+ }
+ 
+ #three{
+    border-style: solid;
+    height: 50px;
+    width: 50px;
+    margin: 20px 25px 20px 20px;
+    border-radius:50%;
+    background-color: green;
+ }
